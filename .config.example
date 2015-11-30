@@ -1,0 +1,14 @@
+[settings]
+DEBUG: True
+
+[database]
+ENGINE: django.db.backends.postgresql_psycopg2
+NAME: database_name
+USER: database_user
+PASSWORD: database_password
+HOST: database_host
+PORT: 5432
+
+[secrets]
+SECRET_KEY: random-string-of-ascii
+CSRF_MIDDLEWARE_SECRET: random-string-of-ascii
